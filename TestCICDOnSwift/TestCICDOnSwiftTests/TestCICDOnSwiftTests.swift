@@ -33,6 +33,10 @@ class TestCICDOnSwiftTests: XCTestCase {
 
     }
     
+    func test_error() throws {
+        XCTAssertEqual(1, 0)
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
