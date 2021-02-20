@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='TestCICDOnSwiftTests.xctest' tests='5' failures='1'>
+  <testsuite name='TestCICDOnSwiftUITests.TestCICDOnSwiftUITests' tests='2' failures='0'>
+    <testcase classname='TestCICDOnSwiftUITests.TestCICDOnSwiftUITests' name='testExample' time='1.908'/>
+    <testcase classname='TestCICDOnSwiftUITests.TestCICDOnSwiftUITests' name='testLaunchPerformance' time='14.593'/>
+  </testsuite>
+  <testsuite name='TestCICDOnSwiftTests.TestCICDOnSwiftTests' tests='3' failures='1'>
+    <testcase classname='TestCICDOnSwiftTests.TestCICDOnSwiftTests' name='test_address_codeable' time='0.003'/>
+    <testcase classname='TestCICDOnSwiftTests.TestCICDOnSwiftTests' name='test_error'>
+      <failure message='XCTAssertEqual failed: (&quot;1&quot;) is not equal to (&quot;0&quot;)'>TestCICDOnSwiftTests/TestCICDOnSwiftTests.swift:37</failure>
+    </testcase>
+    <testcase classname='TestCICDOnSwiftTests.TestCICDOnSwiftTests' name='testPerformanceExample' time='0.254'/>
+  </testsuite>
+</testsuites>
