@@ -32,6 +32,10 @@ class TestCICDOnSwiftTests: XCTestCase {
         XCTAssertEqual(address.zip, decodeAddress.zip)
 
     }
+
+    func test_error() throws {
+            XCTAssertEqual(1, 0)
+    }
     
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
